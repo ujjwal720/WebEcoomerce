@@ -1,0 +1,89 @@
+2023-12-03 23:32:27,313 [main] INFO TestCase01 - Browser has verified the text
+2023-12-04 00:02:05,400 [main] INFO TestCase01 - Browser has verified the text
+2023-12-05 00:54:30,115 [main] INFO TestCase01 - Browser has verified the text
+2023-12-10 22:07:53,112 [main] INFO TestCase01 - Exception has occured
+2023-12-10 22:07:54,849 [main] INFO TestCase01 - Exception has occured
+2023-12-10 22:07:56,484 [main] INFO TestCase01 - Exception has occured
+2023-12-10 22:09:10,067 [main] INFO TestCase01 - Entered data in search
+2023-12-10 22:09:11,770 [main] INFO TestCase01 - Entered data in search
+2023-12-10 22:09:13,536 [main] INFO TestCase01 - Entered data in search
+2023-12-10 23:43:02,391 [main] INFO TestCase01 - Entered data in search
+2023-12-10 23:43:04,365 [main] INFO TestCase01 - Entered data in search
+2023-12-10 23:43:06,282 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:39,238 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:41,241 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:43,163 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:44,988 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:46,804 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:48,581 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:50,423 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:52,332 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:54,343 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:56,221 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:58,095 [main] INFO TestCase01 - Entered data in search
+2023-12-11 00:53:59,925 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:47,675 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:49,698 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:51,756 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:53,643 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:56,111 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:13:58,400 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:00,403 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:02,512 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:04,640 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:06,448 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:08,908 [main] INFO TestCase01 - Entered data in search
+2023-12-11 01:14:10,849 [main] INFO TestCase01 - Entered data in search
+2023-12-24 21:31:24,349 [main] INFO TestCase01 - Testcase completed
+2023-12-24 21:31:25,022 [main] INFO TestCase01 - Testcase completed
+2023-12-24 21:31:25,636 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:07:35,892 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:07:36,125 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:07:36,126 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:07:36,756 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:07:36,897 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:07:36,898 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:07:37,969 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:07:38,098 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:07:38,098 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:08:58,507 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:08:58,730 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:08:58,737 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:09:00,413 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:09:00,543 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:09:00,544 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:09:01,280 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:09:01,432 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:09:01,432 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:29:41,915 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:29:42,117 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:29:42,118 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:30:26,039 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:30:26,241 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:30:26,242 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:50:25,457 [main] INFO TestCase01 - Testcase completed
+2023-12-24 23:50:25,688 [main] INFO TestCase01 - Exception has occured
+2023-12-24 23:50:25,689 [main] INFO TestCase01 - Testcase as error
+2023-12-24 23:52:53,464 [main] INFO TestCase01 - Testcase completed
+2023-12-25 00:22:42,366 [main] INFO TestCase01 - Testcase completed
+2023-12-25 01:07:49,773 [main] INFO TestCase01 - Testcase completed
+2023-12-25 15:14:26,939 [main] INFO TestCase01 - Testcase completed
+2023-12-25 15:53:29,779 [main] INFO TestCase01 - Testcase completed
+2023-12-25 16:36:38,816 [main] INFO TestCase01 - Testcase completed
+2023-12-25 16:40:25,729 [main] INFO TestCase01 - Testcase completed
+2023-12-25 16:42:18,914 [main] INFO TestCase01 - Testcase completed
+2023-12-25 17:42:37,292 [main] INFO TestCase01 - Testcase completed
+2023-12-25 17:43:50,244 [main] INFO TestCase01 - Testcase completed
+2023-12-25 20:42:39,877 [main] INFO TestCase01 - Testcase completed
+2023-12-25 20:51:42,578 [main] INFO TestCase01 - Testcase completed
+2023-12-25 20:52:41,628 [main] INFO TestCase01 - Testcase completed
+2023-12-25 20:53:41,748 [main] INFO TestCase01 - Testcase completed
+2023-12-25 20:55:27,708 [main] INFO TestCase01 - Testcase completed
+2023-12-25 22:12:22,661 [main] INFO TestCase01 - Testcase completed
+2023-12-25 22:14:49,289 [main] INFO TestCase01 - Exception has occured
+2023-12-25 22:14:49,295 [main] INFO TestCase01 - Testcase as error
+2023-12-25 22:15:22,590 [main] INFO TestCase01 - Testcase completed
+2023-12-25 22:18:24,074 [main] INFO TestCase01 - Testcase completed
+2023-12-26 00:57:08,544 [main] INFO TestCase01 - Testcase completed
+2023-12-26 00:58:53,297 [main] INFO TestCase01 - Testcase completed
+2023-12-26 01:17:37,835 [main] INFO TestCase01 - Testcase completed
