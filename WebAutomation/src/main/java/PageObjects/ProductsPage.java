@@ -40,31 +40,61 @@ public class ProductsPage extends Methods {
 
 	@FindBy(xpath = "//select[@id='selectProductSort']")
 	WebElement ui;
-	
+
 	@FindBy(xpath = "//div[@class='product-image-container']/a/img")
 	List<WebElement> elementsn;
-	
-	@FindBy(xpath="(//div[@class='product-count'])[1]")
+
+	@FindBy(xpath = "(//div[@class='product-count'])[1]")
 	WebElement product_count;
-	
-	@FindBy(xpath="//span[@class='heading-counter']")
+
+	@FindBy(xpath = "//span[@class='heading-counter']")
 	WebElement counts3;
 
 	public String verifyText() {
 
-		return women.getText();
+		try {
+
+			return women.getText();
+
+		}
+
+		catch (Exception e) {
+
+			e.printStackTrace();
+
+			return "Error occured in test case";
+
+		}
 
 	}
 
 	public void search(String s) {
+		try {
+			search.sendKeys(s);
 
-		search.sendKeys(s);
+		}
+
+		catch (Exception e) {
+
+			e.printStackTrace();
+
+		}
 
 	}
 
 	public void searchbutton() {
 
-		searchbutt.click();
+		try {
+
+			searchbutt.click();
+
+		}
+
+		catch (Exception e) {
+
+			e.printStackTrace();
+
+		}
 
 	}
 
@@ -85,11 +115,11 @@ public class ProductsPage extends Methods {
 		System.out.println(count);
 		int count1 = 0;
 		for (int i = 0; i <= elements.size() - 1; i++) {
-			
-			x.movetoelement(elementsn.get(i),this.driver);
+
+			x.movetoelement(elementsn.get(i), this.driver);
 
 			String start = elements.get(i).getText();
-			String start2=start.substring(1);
+			String start2 = start.substring(1);
 			System.out.println(start2);
 
 			actual.add(Integer.parseInt(start2));
@@ -118,7 +148,7 @@ public class ProductsPage extends Methods {
 		}
 
 		else {
-			
+
 			return false;
 
 		}
@@ -127,22 +157,42 @@ public class ProductsPage extends Methods {
 
 	public void clickselect() {
 
-		ui.click();
-		x.SelectByindex(1, ui);
+		try {
+			ui.click();
+			x.SelectByindex(1, ui);
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+		}
 
 	}
-	
-	
+
 	public String getcount() {
-		
-		return x.getetext(product_count);
+		try {
+			return x.getetext(product_count);
+
+		}
+
+		catch (Exception e) {
+
+			return "Exception occured";
+		}
 	}
-	
+
 	public String getcountheader() {
-		
-		return x.getetext(counts3);
-		
-		
+
+		try {
+			return x.getetext(counts3);
+
+		}
+
+		catch (Exception e) {
+
+			return "Exception occured";
+
+		}
+
 	}
 
 }

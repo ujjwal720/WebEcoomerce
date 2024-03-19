@@ -100,14 +100,16 @@ public class Methods {
 		abc.executeScript(scroll, "");
 
 	}
-	
-	public void movetoelement(WebElement element,WebDriver driver) {
-		
-		Actions act=new Actions(driver);
+
+	public void movetoelement(WebElement element, WebDriver driver) {
+
+		Actions act = new Actions(driver);
 		act.moveToElement(element).build().perform();
-		
-		
-		
+
+	}
+
+	public void movetoelements(WebElement r) {
+
 	}
 
 }

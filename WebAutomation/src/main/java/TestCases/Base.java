@@ -2,17 +2,10 @@ package TestCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-
 import Utilities.ListenerHelper;
 import Utilities.PropertiesHelper;
 
@@ -22,7 +15,7 @@ public class Base {
 
 	String browser = "Chrome";
 
-	@BeforeClass
+	@BeforeSuite
 	public void setup() throws IOException {
 
 		if (browser.equalsIgnoreCase("chrome")) {
@@ -30,8 +23,9 @@ public class Base {
 			System.setProperty("webdriver.chrome.driver", "C:\\ch\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			PropertiesHelper a = new PropertiesHelper();
-			String url = a.readfile("url");
+			PropertiesHelper b=new PropertiesHelper();
+			String url = b.readfile("url");
+			System.out.println(url);
 			driver.get(url);
 			ListenerHelper ty=new ListenerHelper(Base.driver);
 

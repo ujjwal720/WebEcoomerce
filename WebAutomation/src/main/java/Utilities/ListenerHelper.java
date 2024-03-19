@@ -59,7 +59,7 @@ public class ListenerHelper extends Base implements ITestListener {
 	
 	// Invoked when a test is startedb.
 
-	public void onStart(ITestContext Result) {
+	public void onStart(ITestResult Result) {
 		config();
 		System.out.println("Test is started");
 		

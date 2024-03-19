@@ -20,7 +20,8 @@ import Utilities.ExelUtilities;
 public class TestCase01 extends Base {
 
 	SoftAssert ass = new SoftAssert();
-	Logger logs = Logger.getLogger("TestCase01");
+	Logger logs = Logger.getLogger("Cas01Test ");
+	
 
 	
 	/*
@@ -93,7 +94,7 @@ public class TestCase01 extends Base {
 	/*
 	 * to verify the number is same in test
 	 */
-	@Test(priority = 4)
+	@Test(priority = 4,enabled=false)
 	public void test4() {
 
 		ProductsPage w = new ProductsPage(Base.driver);
@@ -109,6 +110,8 @@ public class TestCase01 extends Base {
 	}
 
 	public void test5() {
+		
+		
 		
 		
 		

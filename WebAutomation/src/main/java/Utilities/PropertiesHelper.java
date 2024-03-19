@@ -12,7 +12,7 @@ public class PropertiesHelper {
 	public FileInputStream props1;
 
 	public  String readfile(String s) throws IOException {
-		 props = new File("C:\\Users\\DELL\\eclipse-workspace\\WebAutomation\\Config.Properties");
+		 props = new File("C:\\Users\\DELL\\git\\WebEcoomerce\\WebAutomation\\Config.Properties");
 		props1 = new FileInputStream(props);
 		Properties prop2 = new Properties();
 		prop2.load(props1);
