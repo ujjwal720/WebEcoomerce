@@ -30,7 +30,8 @@ public class ListenerHelper extends Base implements ITestListener {
 	public ExtentSparkReporter io;
 	ExtentReports	c = new ExtentReports();
 	public ExtentTest abc;
-	WebDriver driver;
+	public WebDriver driver;
+	public String reportPath;
 
 
 	public ListenerHelper() {
@@ -48,18 +49,24 @@ public class ListenerHelper extends Base implements ITestListener {
 	public void config() {
 	
 
-		String a = "C:\\Users\\DELL\\eclipse-workspace\\WebAutomation\\results.html";
-		io = new ExtentSparkReporter(a);
-		c.attachReporter(io);
-		c.setSystemInfo("OS", "WINDOWS11");
-		io.config().setDocumentTitle("Test Cases of Ecommerce");
-		io.config().setReportName("Ujjwal");
+		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
+	    String timestamp = dateFormat.format(new Date());
+	    
+	    // Specify the path for the new report file with the timestamp.
+	     reportPath = "C:\\Users\\DELL\\git\\WebEcoomerce\\WebAutomation\\"+ timestamp + ".html";
+	    
+	    // Create a new ExtentSparkReporter with the new report file path.
+	    io = new ExtentSparkReporter(reportPath);
+	    c.attachReporter(io);
+	    c.setSystemInfo("OS", "WINDOWS11");
+	    io.config().setDocumentTitle("Test Cases of Ecommerce");
+	    io.config().setReportName("Ujjwal");
 	}
 
 	
 	// Invoked when a test is startedb.
-
-	public void onStart(ITestResult Result) {
+    @Override
+	public void onStart(ITestContext Result) {
 		config();
 		System.out.println("Test is started");
 		
@@ -71,7 +78,7 @@ public class ListenerHelper extends Base implements ITestListener {
        String name=result.getName();
 		abc = c.createTest(name);
 		abc.log(Status.PASS, MarkupHelper.createLabel("Name of the failed test case is: " + result.getName() ,ExtentColor.GREEN));
-	
+	   System.out.println("One is success");
 
 	}
 
@@ -97,7 +104,7 @@ public class ListenerHelper extends Base implements ITestListener {
 				String timestamp = dateFormat.format(new Date());
 
 				// Set the project directory to the specified path.
-				String projectDirectory = "C:\\Users\\DELL\\eclipse-workspace\\WebAutomation\\";
+				String projectDirectory = "C:\\Users\\DELL\\git\\WebEcoomerce\\WebAutomation";
 
 				// Concatenate the test case name with the timestamp.
 				String screenshotFileName = testCaseName + "_" + timestamp + ".png";
@@ -123,6 +130,8 @@ public class ListenerHelper extends Base implements ITestListener {
 		} else {
 			System.out.println("WebDriver is null");
 		}
+		
+		System.out.println("takes it");
 
 	}
 
@@ -145,7 +154,9 @@ public class ListenerHelper extends Base implements ITestListener {
 	@Override
 	public void onFinish(ITestContext context) {
         c.flush();
-		System.out.println("Test finished");
+        System.out.println(reportPath);
+       
+		
 
 	}
 

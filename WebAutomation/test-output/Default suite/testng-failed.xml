@@ -5,9 +5,8 @@
     <classes>
       <class name="TestCases.TestCase01">
         <methods>
+          <include name="test3"/>
           <include name="setup"/>
-          <include name="test2"/>
-          <include name="test1"/>
         </methods>
       </class> <!-- TestCases.TestCase01 -->
     </classes>

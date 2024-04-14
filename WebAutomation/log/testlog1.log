@@ -92,3 +92,30 @@
 2024-01-03 23:56:44,706 [main] INFO TestCase01 - Testcase completed
 2024-01-04 00:02:33,897 [main] INFO TestCase01 - Testcase completed
 2024-01-24 02:04:55,461 [main] INFO Cas01Test  - Testcase completed
+2024-04-14 23:41:03,929 [main] INFO Cas01Test  - Testcase completed
+2024-04-14 23:42:33,440 [main] INFO Cas01Test  - Testcase completed
+2024-04-14 23:42:42,983 [main] INFO Cas01Test  - Test is passed
+2024-04-14 23:54:19,899 [main] INFO Cas01Test  - Testcase completed
+2024-04-14 23:54:54,540 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:07:41,380 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:08:14,431 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:14:50,643 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:15:00,522 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:21:10,699 [main] INFO Cas01Test  - Exception has occured
+2024-04-15 00:21:10,708 [main] INFO Cas01Test  - Testcase as error
+2024-04-15 00:21:38,286 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:21:49,346 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:28:29,030 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:28:39,778 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:30:29,638 [main] INFO Cas01Test  - Exception has occured
+2024-04-15 00:30:29,643 [main] INFO Cas01Test  - Testcase as error
+2024-04-15 00:31:28,111 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:31:37,913 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:41:18,805 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:41:26,515 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:44:22,452 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:44:31,765 [main] INFO Cas01Test  - Test is passed
+2024-04-15 00:46:10,041 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 00:46:19,853 [main] INFO Cas01Test  - Test is passed
+2024-04-15 01:00:09,117 [main] INFO Cas01Test  - Testcase completed
+2024-04-15 01:00:20,235 [main] INFO Cas01Test  - Test is passed

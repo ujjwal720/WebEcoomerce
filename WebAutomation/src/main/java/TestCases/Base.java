@@ -20,7 +20,7 @@ public class Base {
 
 		if (browser.equalsIgnoreCase("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "C:\\ch\\chromedriver-win64\\chromedriver.exe");
+	//	System.setProperty("webdriver.chrome.driver", "C:\\ch\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			PropertiesHelper b=new PropertiesHelper();

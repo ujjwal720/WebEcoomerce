@@ -3,16 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="Utilities.ListenerHelper"/>
-    <listener class-name="Utilities.trans"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="TestCases.TestCase01">
         <methods>
-          <include name="test4"/>
+          <include name="test3"/>
           <include name="setup"/>
-          <include name="test2"/>
-          <include name="test1"/>
         </methods>
       </class> <!-- TestCases.TestCase01 -->
     </classes>

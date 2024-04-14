@@ -77,7 +77,7 @@ public class TestCase01 extends Base {
 		}
 	}
 
-	@Test(priority = 3, enabled = false)
+	@Test(priority = 3, enabled = true)
 	public void test3() throws InterruptedException {
 
 		ProductsPage w = new ProductsPage(Base.driver);
@@ -94,7 +94,7 @@ public class TestCase01 extends Base {
 	/*
 	 * to verify the number is same in test
 	 */
-	@Test(priority = 4,enabled=false)
+	@Test(priority = 4,enabled=true)
 	public void test4() {
 
 		ProductsPage w = new ProductsPage(Base.driver);

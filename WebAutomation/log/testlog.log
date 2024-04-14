@@ -92,3 +92,30 @@
 2024-01-03 23:56:44,706 - TestCase01 -INFO - Testcase completed
 2024-01-04 00:02:33,897 - TestCase01 -INFO - Testcase completed
 2024-01-24 02:04:55,461 - Cas01Test  -INFO - Testcase completed
+2024-04-14 23:41:03,929 - Cas01Test  -INFO - Testcase completed
+2024-04-14 23:42:33,440 - Cas01Test  -INFO - Testcase completed
+2024-04-14 23:42:42,983 - Cas01Test  -INFO - Test is passed
+2024-04-14 23:54:19,899 - Cas01Test  -INFO - Testcase completed
+2024-04-14 23:54:54,540 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:07:41,380 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:08:14,431 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:14:50,643 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:15:00,522 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:21:10,699 - Cas01Test  -INFO - Exception has occured
+2024-04-15 00:21:10,708 - Cas01Test  -INFO - Testcase as error
+2024-04-15 00:21:38,286 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:21:49,346 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:28:29,030 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:28:39,778 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:30:29,638 - Cas01Test  -INFO - Exception has occured
+2024-04-15 00:30:29,643 - Cas01Test  -INFO - Testcase as error
+2024-04-15 00:31:28,111 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:31:37,913 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:41:18,805 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:41:26,515 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:44:22,452 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:44:31,765 - Cas01Test  -INFO - Test is passed
+2024-04-15 00:46:10,041 - Cas01Test  -INFO - Testcase completed
+2024-04-15 00:46:19,853 - Cas01Test  -INFO - Test is passed
+2024-04-15 01:00:09,117 - Cas01Test  -INFO - Testcase completed
+2024-04-15 01:00:20,235 - Cas01Test  -INFO - Test is passed

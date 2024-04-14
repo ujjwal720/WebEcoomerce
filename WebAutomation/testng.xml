@@ -4,9 +4,7 @@
 <listeners>
 		<listener
 			class-name="Utilities.ListenerHelper"></listener>
-			<listener
-			class-name="Utilities.trans"></listener>
-		
+			
 	</listeners>
   <test thread-count="5" name="Test">
   <classes>
